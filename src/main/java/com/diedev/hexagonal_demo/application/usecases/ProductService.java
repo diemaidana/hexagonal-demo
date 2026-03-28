@@ -5,7 +5,6 @@ import com.diedev.hexagonal_demo.application.ports.in.CreateProductUseCase;
 import com.diedev.hexagonal_demo.application.ports.in.GetProductUseCase;
 import com.diedev.hexagonal_demo.application.ports.out.ProductRepository;
 import com.diedev.hexagonal_demo.domain.model.Product;
-import com.diedev.hexagonal_demo.domain.model.ProductStatus;
 
 import java.math.BigDecimal;
 import java.util.UUID;
