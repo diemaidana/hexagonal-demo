@@ -9,11 +9,11 @@ public class Product {
     private BigDecimal price;
     private ProductStatus status;
 
-    public Product(UUID id, String name, BigDecimal price, ProductStatus status) {
+    public Product(UUID id, String name, BigDecimal price) {
         this.id = id;
         this.name = name;
         this.price = price;
-        this.status = status;
+        this.status = ProductStatus.INACTIVE;
     }
 
     public void activateProduct() {
